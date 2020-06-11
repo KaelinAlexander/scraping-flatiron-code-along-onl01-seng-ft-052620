@@ -1,5 +1,5 @@
 class Course
-  attr_accesor :title, :schedule, :description
+  attr_accessor :title, :schedule, :description
   
   @@all = []
   
