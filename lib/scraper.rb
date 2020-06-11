@@ -12,8 +12,6 @@ class Scraper
     binding.pry
   end
   
-  Scraper.new.get_page
-  
   def get_courses
     doc.css("")
   end
@@ -35,5 +33,5 @@ class Scraper
   
 end
 
-
+Scraper.new.get_page
 
