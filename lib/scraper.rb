@@ -15,7 +15,7 @@ class Scraper
   end
   
   def make_courses
-    
+    course = Course.new
   end
   
   def print_courses
